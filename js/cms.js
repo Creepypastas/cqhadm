@@ -7,7 +7,7 @@ var editing  = false;
 
 if (document.getElementById && document.createElement) {
 	var butt = document.createElement('BUTTON');
-	var buttext = document.createTextNode('Ready!');
+	var buttext = document.createTextNode('Guardar');
 	butt.appendChild(buttext);
 	butt.onclick = saveEdit;
 }
