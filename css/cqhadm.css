@@ -1,0 +1,14 @@
+body{
+  background:black;
+  color:gray;
+  margin:0;
+}
+
+#uno{
+  width:80%;
+  max-width: 500px;
+  margin:auto;
+  background: rgb(33,33,33);
+  padding:20px; 
+}
+
