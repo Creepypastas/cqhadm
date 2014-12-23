@@ -11,12 +11,15 @@ span{
   display:block;
   float:left;
   
+  font-size: 50px;
+  box-shadow: inset 0px 0px 15px 3px #4c3f37; 
+  padding:0 7px 0 7px;
 }
 #uno{
   width:80%;
-  max-width: 480px;
-  height: 90%;
-  max-height: 320px;
+  max-width: 320px;
+  height: 105%;
+  max-height: 480px;
 
   margin:auto;
   background: white;
@@ -25,13 +28,22 @@ span{
   
   font-size: 27px;
   
+  box-shadow: inset 0px 0px 121px 3px #4c3f37; 
+
+  /*
+  background-image: url(http://cdn.creepypastas.com/s.256.png);
+  background-repeat: no-repeat;
+  */
 }
 
-h5{
+
+
+
+h2{
   margin-left: 30%;
   margin-top: 0px;
   text-align: right;
   max-width:222px; 
-  
+  font-size:22px;  
   
 }
