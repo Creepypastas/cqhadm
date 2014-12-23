@@ -27,6 +27,11 @@ function cqhadm_actualizarLocationHash(texto){
 
 document.addEventListener("DOMContentLoaded", function(event) { 
   var params = location.hash.substring(1).split('&');
+  if(params != ""){
       document.getElementById('cosaTexto').children[0].innerHTML=params[0].split('=')[1];
   cqhadm_modificado();
+  }
+  else{
+    console.log("No recibí hash. Imprimiré algo al azar.")
+  }
 });
