@@ -45,6 +45,7 @@ function saveEdit() {
 	z.removeChild(area);
 	z.removeChild(document.getElementsByTagName('button')[0]);
 	editing = false;
+	cqhadm_modificado();
 }
 
 document.onclick = catchIt;
