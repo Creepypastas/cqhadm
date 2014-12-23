@@ -12,7 +12,8 @@ span{
   float:left;
   
   font-size: 50px;
-  box-shadow: inset 0px 0px 15px 3px #4c3f37; 
+  box-shadow: inset 0px 0px 15px 3px #4c3f37;  
+; 
   padding:0 7px 0 7px;
 }
 #uno{
@@ -45,5 +46,5 @@ h2{
   text-align: right;
   max-width:222px; 
   font-size:22px;  
-  
+  text-shadow: 2px 5px 5px rgba(255, 42, 52, 1);  
 }
