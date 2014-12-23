@@ -1,14 +1,21 @@
-body{
+html,body {
   background:black;
-  color:gray;
   margin:0;
+  height: 90%;
+  margin-top:2%;
+  background-image:url('../img/darknoise.png');
 }
 
 #uno{
   width:80%;
-  max-width: 500px;
+  max-width: 320px;
+  height: 90%;
+  max-height: 480px;
+
   margin:auto;
-  background: rgb(33,33,33);
+  background: white;
   padding:20px; 
+  color:black;
+  
 }
 
