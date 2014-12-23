@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+    <widget xmlns   = "http://www.w3.org/ns/widgets"
+	xmlns:cdv   = "http://cordova.apache.org/ns/1.0"
+        id          = "net.creepypastas.antesdemorir"
+        version     = "0.11.22" >
+
+
+    <name>Antes de morir</name>
+    <description>
+        Ideas aleatorias de cosas que hacer antes de morir.
+    </description>
+    <author email="contacto@creepypastas.com" href="http://creepypastas.com">
+        Creepypastas.com
+    </author>
+    <preference name="permissions" value="none"/>
+
+    <content src="index.html" />
+    <icon src="img/favicon/s.128.png" />
+    <access origin="*" />
+</widget>
