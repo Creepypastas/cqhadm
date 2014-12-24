@@ -7,7 +7,7 @@ html,body {
   background-image:url('../img/darknoise.png');
 }
 
-span{
+#numero{
   display:block;
   float:left;
   
