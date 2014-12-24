@@ -33,14 +33,12 @@ document.addEventListener("DOMContentLoaded", function(event) {
   cqhadm_modificado();
   }
   else{
-    console.log("No recibí hash. Imprimiré algo al azar.")
     if(antesdemorir_ideas[0]){
-      console.log("random");
       document.getElementsByTagName('textarea')[0].value = antesdemorir_ideas[Math.floor(Math.random() * antesdemorir_ideas.length)];
       cqhadm_modificado();      
     }
     else{
-      console.log("buuu");
+      //TODO
     }
     
     
