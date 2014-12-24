@@ -1,5 +1,5 @@
 function cqhadm_modificado(){
-  var texto = document.getElementById('cosaTexto').children[0].innerHTML;
+  var texto = document.getElementsByTagName('textarea')[0].value;
   var md5 = hex_md5(texto); 
 
   var numero = cqhadm_calcularNumero(md5);
@@ -25,13 +25,17 @@ function cqhadm_actualizarLocationHash(texto){
   
 }
 
-document.addEventListener("DOMContentLoaded", function(event) { 
+document.addEventListener("DOMContentLoaded", function(event) {
+  
   var params = location.hash.substring(1).split('&');
   if(params != ""){
-      document.getElementById('cosaTexto').children[0].innerHTML=params[0].split('=')[1];
+      document.getElementsByTagName('textarea')[0].value=params[0].split('=')[1];
   cqhadm_modificado();
   }
   else{
     console.log("No recibí hash. Imprimiré algo al azar.")
   }
+  
+  document.getElementsByTagName('textarea')[0].onchange=cqhadm_modificado;
+  
 });
