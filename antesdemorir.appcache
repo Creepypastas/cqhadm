@@ -1,0 +1,25 @@
+CACHE MANIFEST
+# Time: Happy Prismas!
+
+
+CACHE:
+js/cqhadm.js
+js/md5.js
+js/cordova.js
+js/ideas.js
+css/cqhadm.css
+img/darknoise.png
+img/s.128.55.png
+img/favicon/s.256.png
+img/favicon/s.512.png
+img/favicon/s.1024.png
+img/favicon/s.16.png
+img/favicon/s.32.png
+img/favicon/s.64.png
+img/favicon/s.128.png
+
+
+NETWORK:
+http://*
+https://*
+*
