@@ -1,5 +1,13 @@
 var antesdemorir_ideas =
 [
+  "Escribir un diario de pesadillas",
+  "Escribir un diario de sueños",
+  "Escribir una historia de terror que ponga los pelos de punta",
+  "Leer 'ESO', el libro en el que se basó la película",
+  "Correr un maratón",
+  "Terminar una carrera universitaria",
+  "Tener una foto en la Torre Eifel",
+  "Aprender a programar",
   "Volar una avioneta",
   "Lanzarte en parapente",
   "Aventarte del bungee",
