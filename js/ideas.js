@@ -1,5 +1,7 @@
 var antesdemorir_ideas =
 [
+  "Escribir un final alternativo para Death Note",
+  "Ver Death Note",
   "Escribir un diario de pesadillas",
   "Escribir un diario de sueños",
   "Escribir una historia de terror que ponga los pelos de punta",
