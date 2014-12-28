@@ -1,5 +1,16 @@
 var antesdemorir_ideas =
 [
+  "Pasar Mario Bros al ritmo de la canción",
+  "Leer tres libros que marquen tu vida",
+  "Acampar dos noches en el bosque",
+  "Hacer las paces con tus seres queridos",
+  "Montar un león",
+  "Montar a caballo",
+  "Ir a un cmenterio a ver una película de fantasmas",
+  "Dejarte llevar por un río, hasta el final",
+  "Tomar un baño de lodo",
+  "Lanzarte de la tirolesa",
+  "Ir a un concierto de Heavy Mettal",
   "Escribir un final alternativo para Death Note",
   "Ver Death Note",
   "Escribir un diario de pesadillas",
