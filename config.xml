@@ -17,7 +17,10 @@
 
     <gap:plugin name="com.google.cordova.admob" source="plugins.cordova.io" />
     <preference name="orientation" value="portrait" />
-
+    <preference name="fullscreen"  value="all" />
+    <preference name="stay-in-webview" value="false" />
+    <preference name="android-minSdkVersion"  value="11" />
+    
     <content src="index.html" />
     <icon src="img/favicon/s.128.png" />
     <access origin="*" />
