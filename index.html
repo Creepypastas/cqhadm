@@ -16,27 +16,21 @@
     <!--[if IE]>
     <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
+	<script>
+	function adeese(){
+		var admobid = {};
+		if( /(android)/i.test(navigator.userAgent) ) {
+			admobid = {
+			    banner: 'ca-app-pub-4052984890763114/9754796058',
+			    interstitial: 'ca-app-pub-4052984890763114/6801329653'
+			};
+			if(typeof AdMob != "undefined") AdMob.prepareInterstitial( {adId:admobid.interstitial, autoShow:false} );
+			if(typeof AdMob != "undefined") AdMob.showInterstitial();
+		}
+	}
+	</script>
 </head>
-
-<body>
-
-<!--script>
-  window.fbAsyncInit = function() {
-    FB.init({
-      appId      : '1523045904644687',
-      xfbml      : true,
-      version    : 'v2.2'
-    });
-  };
-
-  (function(d, s, id){
-     var js, fjs = d.getElementsByTagName(s)[0];
-     if (d.getElementById(id)) {return;}
-     js = d.createElement(s); js.id = id;
-     js.src = "//connect.facebook.net/en_US/sdk.js";
-     fjs.parentNode.insertBefore(js, fjs);
-   }(document, 'script', 'facebook-jssdk'));
-</script-->
+<body onload=adeese"()">
 
   <article id="uno">
   <span id="numero">703:</span>  
