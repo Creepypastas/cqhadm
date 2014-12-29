@@ -1,5 +1,5 @@
 CACHE MANIFEST
-# Time: Happy Prismas!
+# Time: Happy Prismas! + fool's day
 
 
 CACHE:
@@ -8,6 +8,7 @@ js/md5.js
 js/cordova.js
 js/ideas.js
 css/cqhadm.css
+css/IndieFlower/IndieFlower.woff
 img/darknoise.png
 img/s.128.55.png
 img/favicon/s.256.png
