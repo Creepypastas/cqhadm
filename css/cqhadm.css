@@ -76,3 +76,12 @@ h2{
   font-size:22px;  
   text-shadow: 2px 5px 5px rgba(255, 42, 52, 1);  
 }
+
+@font-face {
+font-family: 'Indie Flower';
+src: url('IndieFlower/IndieFlower.eot'); /* IE9 Compat Modes */
+src: url('IndieFlower/IndieFlower.eot?#iesux') format('embedded-opentype'), /* IE6-IE8 */
+     url('IndieFlower/IndieFlower.woff') format('woff'), /* Modern Browsers */
+     url('IndieFlower/IndieFlower.ttf')  format('truetype'), /* Safari, Android, iOS */
+     url('IndieFlower/IndieFlower.svg#svgIndieFlower') format('svg'); /* Legacy iOS */
+}
