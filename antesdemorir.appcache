@@ -1,16 +1,11 @@
 CACHE MANIFEST
-# Time: Happy Prismas! + fool's day
+# Time: Happy Prismas! + fool's day + 1
 
 
 CACHE:
-js/cqhadm.js
-js/md5.js
-js/cordova.js
-js/ideas.js
 css/cqhadm.css
 css/IndieFlower/IndieFlower.woff
 img/darknoise.png
-img/s.128.55.png
 img/favicon/s.256.png
 img/favicon/s.512.png
 img/favicon/s.1024.png
@@ -18,7 +13,11 @@ img/favicon/s.16.png
 img/favicon/s.32.png
 img/favicon/s.64.png
 img/favicon/s.128.png
-
+img/s.128.55.png
+jotaese/cqhadm.js
+jotaese/md5.js
+jotaese/ideas.js
+jotaese/adeese.js
 
 NETWORK:
 *
