@@ -3,7 +3,7 @@
 	xmlns:gap   = "http://phonegap.com/ns/1.0"
 	xmlns:cdv   = "http://cordova.apache.org/ns/1.0"
         id          = "net.creepypastas.antesdemorir"
-        version     = "0.11.22" >
+        version     = "0.11.33" >
 
 
     <name>Antes de morir</name>
@@ -15,11 +15,11 @@
     </author>
     <preference name="permissions" value="none"/>
 
-    <gap:plugin name="com.google.cordova.admob" source="plugins.cordova.io" />
+    <gap:plugin name="cordova-plugin-admobpro" source="npm" version="2.9.9"/>
     <preference name="orientation" value="portrait" />
     <preference name="fullscreen"  value="all" />
     <preference name="stay-in-webview"  value="false" />
-    
+
     <content src="index.html" />
     <icon src="img/favicon/s.128.png" />
     <access origin="*" />
