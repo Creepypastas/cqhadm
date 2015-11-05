@@ -25,6 +25,11 @@ function cqhadm_actualizarLocationHash(texto){
 
 }
 
+function cqhadm_tellmeANewThing(){
+  document.getElementsByTagName('textarea')[0].value = antesdemorir_ideas[Math.floor(Math.random() * antesdemorir_ideas.length)];
+  cqhadm_modificado();
+}
+
 document.addEventListener("DOMContentLoaded", function(event) {
 
   var params = location.hash.substring(1).split('&');
@@ -34,8 +39,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
   }
   else{
     if(antesdemorir_ideas[0]){
-      document.getElementsByTagName('textarea')[0].value = antesdemorir_ideas[Math.floor(Math.random() * antesdemorir_ideas.length)];
-      cqhadm_modificado();
+      cqhadm_tellmeANewThing();
     }
     else{
       //TODO
