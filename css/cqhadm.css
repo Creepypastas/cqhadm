@@ -7,10 +7,15 @@ html,body {
   background-image:url('../img/darknoise.png');
 }
 
+#newI{
+  text-align: center;
+  text-shadow: none;
+}
+
 #numero{
   display:block;
   float:left;
-  
+
   font-size: 50px;
   padding:0;
   background-image:url('../img/s.128.55.png');
@@ -18,7 +23,7 @@ html,body {
   height: 98px;
   text-align: center;
   padding-top:30px;
-  text-shadow: 2px 5px 5px rgba(255, 42, 52, 1);  
+  text-shadow: 2px 5px 5px rgba(255, 42, 52, 1);
 }
 #uno{
   width:80%;
@@ -28,12 +33,12 @@ html,body {
 
   margin:auto;
   background: white;
-  padding:20px; 
+  padding:20px;
   color:black;
-  
+
   font-size: 27px;
-  
-  box-shadow: inset 0px 0px 121px 3px #4c3f37; 
+
+  box-shadow: inset 0px 0px 121px 3px #4c3f37;
 
   /*
   background-image: url(http://cdn.creepypastas.com/s.256.png);
@@ -63,8 +68,8 @@ button{
   border: none;
   border-radius: 5px;
   background: rgba(0,0,0,0.3)
-  
-  
+
+
 }
 
 
@@ -72,9 +77,9 @@ h2{
   margin-left: 30%;
   margin-top: 0px;
   text-align: right;
-  max-width:222px; 
-  font-size:22px;  
-  text-shadow: 2px 5px 5px rgba(255, 42, 52, 1);  
+  max-width:222px;
+  font-size:22px;
+  text-shadow: 2px 5px 5px rgba(255, 42, 52, 1);
 }
 
 @font-face {

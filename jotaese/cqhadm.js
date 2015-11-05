@@ -49,4 +49,5 @@ document.addEventListener("DOMContentLoaded", function(event) {
   }
 
   document.getElementsByTagName('textarea')[0].onchange=cqhadm_modificado;
+  document.getElementById('newI').onclick=cqhadm_tellmeANewThing;
 });
